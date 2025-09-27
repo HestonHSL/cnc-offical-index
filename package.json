@@ -6,7 +6,8 @@
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
-    "start": "npm run dev"
+    "start": "umi dev",
+    "vercel-build": "umi build"
   },
   "dependencies": {
     "antd": "^5.27.4",
