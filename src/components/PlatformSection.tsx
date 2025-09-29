@@ -14,7 +14,7 @@ const PlatformSection = () => {
     const platformFeatures = [
         {
             title: 'Instant Quotation',
-            description: 'Skip the wait. With RapidDirect\'s instant quote feature, you receive accurate pricing and detailed DFM feedback in seconds. Save time, reduce risk, and keep your project on track.',
+            description: 'Skip the wait. With [Company Name]\'s instant quote feature, you receive accurate pricing and detailed DFM feedback in seconds. Save time, reduce risk, and keep your project on track.',
             features: [
                 'No minimum order quantity.',
                 'Over 100 materials and 30 finishes available.',
@@ -35,7 +35,7 @@ const PlatformSection = () => {
         },
         {
             title: 'Integrated Live Chat',
-            description: 'Need answers fast? With RapidDirect\'s live chat, get instant support from our experts and streamline your project communication.',
+            description: 'Need answers fast? With [Company Name]\'s live chat, get instant support from our experts and streamline your project communication.',
             features: [
                 'Quick assistance for quotes and orders',
                 'Share files, photos, and messages instantly',

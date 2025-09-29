@@ -2,7 +2,9 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import AdvantagesSection from '../components/AdvantagesSection';
 import CustomersSection from '../components/CustomersSection';
-import ServicesSection from '../components/ServicesSection';
+import CNCMachiningSection from '../components/CNCMachiningSection';
+import Printing3DSection from '../components/Printing3DSection';
+import SheetMetalSection from '../components/SheetMetalSection';
 import PartnerSection from '../components/PartnerSection';
 import PlatformSection from '../components/PlatformSection';
 import HowToWorkSection from '../components/HowToWorkSection';
@@ -20,7 +22,9 @@ export default function HomePage() {
       <HeroSection />
       <AdvantagesSection />
       <CustomersSection />
-      <ServicesSection />
+      <CNCMachiningSection />
+      <SheetMetalSection />
+      <Printing3DSection />
       <PartnerSection />
       <PlatformSection />
       <HowToWorkSection />

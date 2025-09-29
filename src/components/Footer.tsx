@@ -11,8 +11,8 @@ const Footer = () => {
                         {/* Logo */}
                         <div>
                             <img
-                                src="https://via.placeholder.com/120x40/FFFFFF/000000?text=RapidDirect"
-                                alt="RapidDirect Logo"
+                                src="https://via.placeholder.com/120x40/FFFFFF/000000?text=[Company Name]"
+                                alt="[Company Name] Logo"
                                 className="h-10"
                             />
                         </div>
@@ -79,7 +79,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold mb-6">About</h4>
                         <ul className="space-y-3">
-                            <li><a href="#" className="text-gray-300 hover:text-white transition-colors">About RapidDirect</a></li>
+                            <li><a href="#" className="text-gray-300 hover:text-white transition-colors">About [Company Name]</a></li>
                             <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Our Platform</a></li>
                             <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Quality Assurance</a></li>
                             <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Sponsorship</a></li>

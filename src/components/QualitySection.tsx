@@ -12,7 +12,7 @@ const QualitySection = () => {
         },
         {
             title: 'Certified Manufacturing Partner',
-            description: 'Holding certifications including ISO 9001:2015, ISO 13485, ISO 14001, and IATF 16949, RapidDirect is a trusted partner for industries with strict quality requirements such as automotive, medical devices, and consumer electronic.'
+            description: 'Holding certifications including ISO 9001:2015, ISO 13485, ISO 14001, and IATF 16949, [Company Name] is a trusted partner for industries with strict quality requirements such as automotive, medical devices, and consumer electronic.'
         }
     ];
 
@@ -31,7 +31,7 @@ const QualitySection = () => {
 
                         {/* Description */}
                         <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                            RapidDirect's team of over 30 quality engineers conducts thorough inspections at every stage including pre-production, in-process, and final inspections to ensure a 90% first-pass yield. Our ISO-certified processes guarantee reliable and high-quality parts from prototyping through full production.
+                            [Company Name]'s team of over 30 quality engineers conducts thorough inspections at every stage including pre-production, in-process, and final inspections to ensure a 90% first-pass yield. Our ISO-certified processes guarantee reliable and high-quality parts from prototyping through full production.
                         </p>
 
                         {/* Features List */}

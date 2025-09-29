@@ -18,7 +18,7 @@ const Header = () => {
                     <div className="flex-shrink-0 flex items-center">
                         <div className="flex items-center space-x-2">
                             <Icon icon="fa:cog" className="text-2xl text-blue-600" />
-                            <span className="text-xl font-bold text-gray-900">RapidDirect</span>
+                            <span className="text-xl font-bold text-gray-900">[Company Name]</span>
                         </div>
                     </div>
 

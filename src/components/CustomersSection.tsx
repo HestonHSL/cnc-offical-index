@@ -18,7 +18,7 @@ const CustomersSection = () => {
                 {/* Trust Text */}
                 <div className="text-center mb-6">
                     <h2 className="text-sm font-bold text-gray-900">
-                        20,000+ customers in over 120 countries & regions trust RapidDirect to manufacture their custom parts
+                        20,000+ customers in over 120 countries & regions trust [Company Name] to manufacture their custom parts
                     </h2>
                 </div>
 

@@ -113,7 +113,7 @@ const SolutionsSection = () => {
                         End-to-End Solutions for New Product Development
                     </h2>
                     <p className="text-lg text-gray-600 leading-relaxed  mx-auto">
-                        More than just manufacturing. RapidDirect offers full-cycle product development solutions from design and prototyping to production and packaging. We help innovative companies worldwide to bring products to market easier, faster.
+                        More than just manufacturing. [Company Name] offers full-cycle product development solutions from design and prototyping to production and packaging. We help innovative companies worldwide to bring products to market easier, faster.
                     </p>
                 </div>
 
@@ -216,7 +216,7 @@ const SolutionsSection = () => {
                                     size="large"
                                     className="h-12 px-8 text-base font-medium border-gray-300 text-gray-700 hover:text-blue-600 hover:border-blue-600"
                                 >
-                                    Explore RapidDirect NPI Solutions
+                                    Explore [Company Name] NPI Solutions
                                 </Button>
                             </div>
                         </div>

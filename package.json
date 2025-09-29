@@ -19,6 +19,7 @@
     "@umijs/plugins": "^4.5.1",
     "tailwindcss": "^3",
     "typescript": "^5.0.3",
-    "@iconify-json/fa": "1.2.2"
+    "@iconify-json/fa": "1.2.2",
+    "@iconify-json/mdi": "1.2.3"
   }
 }

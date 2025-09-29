@@ -1,5 +1,8 @@
 import { Icon } from 'umi';
 import { useState, useEffect } from 'react';
+import factory1 from '../assets/PartnerSection/factory-1.jpg';
+import factory2 from '../assets/PartnerSection/factory-2.jpg';
+import factory3 from '../assets/PartnerSection/factory-3.jpg';
 
 const PartnerSection = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -7,26 +10,23 @@ const PartnerSection = () => {
 
     const advantages = [
         {
-            number: "5000㎡",
-            text: "Facotry in Total"
+            number: "2000㎡",
+            text: "Factory in Total"
         },
         {
-            number: "20,000+",
+            number: "5000+",
             text: "Customers Worldwide"
         },
         {
-            number: "120+",
+            number: "25+",
             text: "Countries & Regions Served"
         }
     ];
 
     const carouselItems = [
-        { icon: 'fa:industry', title: 'Manufacturing Excellence' },
-        { icon: 'fa:globe', title: 'Global Reach' },
-        { icon: 'fa:shipping-fast', title: 'Fast Delivery' },
-        { icon: 'fa:users', title: 'Expert Team' },
-        { icon: 'fa:quality', title: 'Quality Assurance' },
-        { icon: 'fa:clock', title: '24/7 Support' }
+        { image: factory1, title: 'Modern CNC Manufacturing' },
+        { image: factory2, title: 'Advanced Production Lines' },
+        { image: factory3, title: 'Precision Machining Center' }
     ];
 
     const nextSlide = () => {
@@ -64,7 +64,7 @@ const PartnerSection = () => {
 
                             {/* Description */}
                             <p className="text-sm text-gray-600 leading-relaxed mb-8">
-                                Based in China, RapidDirect combines in-house production with a network of over 700 vetted local suppliers to deliver fast, high-quality on-demand manufacturing solutions. As a leading China-based hub, we provide global shipping with delivery to North America and Europe in as little as 3–10 days. With English-speaking project engineers and fast response times, we support customers across time zones to keep production running smoothly.
+                                Based in China, [Company Name] combines in-house production with a network of over 700 vetted local suppliers to deliver fast, high-quality on-demand manufacturing solutions. As a leading China-based hub, we provide global shipping with delivery to North America and Europe in as little as 3–10 days. With English-speaking project engineers and fast response times, we support customers across time zones to keep production running smoothly.
                             </p>
                         </div>
 
@@ -93,10 +93,14 @@ const PartnerSection = () => {
                             >
                                 {carouselItems.map((item, index) => (
                                     <div key={index} className="w-full h-full flex-shrink-0 px-4">
-                                        <div className="w-full h-full bg-gray-50 rounded-lg border border-gray-200 flex items-center justify-center">
-                                            <div className="text-center">
-                                                <Icon icon={item.icon as any} className="text-9xl text-blue-600 mb-4" />
-                                                <div className="text-3xl font-medium text-gray-700">{item.title}</div>
+                                        <div className="w-full h-full rounded-lg overflow-hidden relative">
+                                            <img
+                                                src={item.image}
+                                                alt={item.title}
+                                                className="w-full h-full object-cover"
+                                            />
+                                            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                                                <div className="text-white text-2xl font-semibold">{item.title}</div>
                                             </div>
                                         </div>
                                     </div>
