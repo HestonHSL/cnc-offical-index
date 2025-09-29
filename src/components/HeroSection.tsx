@@ -9,8 +9,8 @@ const HeroSection = () => {
                 className="absolute inset-0 bg-no-repeat"
                 style={{
                     backgroundImage: `url(${heroBackground})`,
-                    backgroundSize: '60% auto',
-                    backgroundPosition: 'right center'
+                    backgroundSize: '45% auto',
+                    backgroundPosition: '90% center' // 向左移动一点
                 }}
             ></div>
 
@@ -18,7 +18,7 @@ const HeroSection = () => {
             <div
                 className="absolute inset-0"
                 style={{
-                    background: 'linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.6) 60%, rgba(255, 255, 255, 0) 80%)'
+                    background: 'linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0) 80%)'
                 }}
             ></div>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

@@ -3,15 +3,9 @@ import HeroSection from '../components/HeroSection';
 import AdvantagesSection from '../components/AdvantagesSection';
 import CustomersSection from '../components/CustomersSection';
 import CNCMachiningSection from '../components/CNCMachiningSection';
-import Printing3DSection from '../components/Printing3DSection';
 import SheetMetalSection from '../components/SheetMetalSection';
+import Printing3DSection from '../components/Printing3DSection';
 import PartnerSection from '../components/PartnerSection';
-import PlatformSection from '../components/PlatformSection';
-import HowToWorkSection from '../components/HowToWorkSection';
-import CustomerStoriesSection from '../components/CustomerStoriesSection';
-import SolutionsSection from '../components/SolutionsSection';
-import QualitySection from '../components/QualitySection';
-import ResourcesSection from '../components/ResourcesSection';
 import CTASection from '../components/CTASection';
 import Footer from '../components/Footer';
 
@@ -26,12 +20,6 @@ export default function HomePage() {
       <SheetMetalSection />
       <Printing3DSection />
       <PartnerSection />
-      <PlatformSection />
-      <HowToWorkSection />
-      <CustomerStoriesSection />
-      <SolutionsSection />
-      <QualitySection />
-      <ResourcesSection />
       <CTASection />
       <Footer />
     </div>

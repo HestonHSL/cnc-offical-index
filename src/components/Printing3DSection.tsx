@@ -7,7 +7,7 @@ import fdmImage from '../assets/Printing3DSection/5-FDM-FusedDepositionModeling.
 
 export default function Printing3DSection() {
     return (
-        <section className="py-20 bg-white">
+        <section className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-2">
                 <div className="text-center mb-16">
                     <div className="inline-flex items-center px-4 py-2 bg-blue-100 rounded-full border border-blue-200 mb-6">
@@ -16,7 +16,7 @@ export default function Printing3DSection() {
                     <h2 className="text-4xl font-bold text-gray-900 mb-6">
                         Our 3D Printing Manufacturing Capabilities
                     </h2>
-                    <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+                    <p className="text-gray-600 text-base max-w-2xl mx-auto">
                         From prototyping to mass production, we provide comprehensive 3D printing solutions
                     </p>
                 </div>

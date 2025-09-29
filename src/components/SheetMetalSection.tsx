@@ -21,10 +21,10 @@ export default function SheetMetalSection() {
                     <h2 className="text-4xl font-bold text-gray-900 mb-6">
                         Our Sheet Metal Fabrication Technologies
                     </h2>
-                    <p className="text-gray-600 text-lg max-w-4xl mx-auto mb-4">
+                    <p className="text-gray-600 text-base max-w-4xl mx-auto mb-4">
                         Sheet metal fabrication is the process of transforming metal sheets into the desired shapes and sizes through a series of physical machining methods. Common sheet metal processes include cutting, bending, stamping, welding, riveting, and more. These processes are widely used in various industries, such as automotive, aerospace, home appliances, electronics, and construction.
                     </p>
-                    <p className="text-gray-600 text-lg max-w-4xl mx-auto">
+                    <p className="text-gray-600 text-base max-w-4xl mx-auto">
                         The core advantages of sheet metal fabrication lie in its flexibility and efficiency, enabling the rapid production of high-precision, complex parts. With advanced equipment and technology, sheet metal fabrication can provide tailor-made solutions for industries with diverse needs.
                     </p>
                 </div>

@@ -5,6 +5,7 @@ import cncDrillingImage from '../assets/CNCMachiningSection/3-CNC-Drilling.png';
 import cncShapingImage from '../assets/CNCMachiningSection/4-CNC-Shaping.jpg';
 import wireEdmImage from '../assets/CNCMachiningSection/5-Wire-EDM.jpg';
 import edmImage from '../assets/CNCMachiningSection/6-EDM.png';
+import advancedCuttingImage from '../assets/CNCMachiningSection/7-Advanced-Cutting.jpg';
 
 export default function CNCMachiningSection() {
     return (
@@ -17,7 +18,7 @@ export default function CNCMachiningSection() {
                     <h2 className="text-4xl font-bold text-gray-900 mb-6">
                         Our CNC Machining Technologies
                     </h2>
-                    <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+                    <p className="text-gray-600 text-base max-w-3xl mx-auto">
                         CNC (Computer Numerical Control) is a technology that uses computer programs to automatically control machine tools for precision machining. It is widely used in processes such as cutting, drilling, milling, and turning of materials like metal and plastic. CNC machining offers high precision, high efficiency, and a high degree of automation. It is suitable for a wide range of manufacturing needs, from single-piece prototyping to mass production, and serves as a key technology in modern manufacturing.
                     </p>
                 </div>
@@ -158,7 +159,7 @@ export default function CNCMachiningSection() {
                                 "Often combined with CNC control systems",
                                 "High-speed, non-contact cutting processes"
                             ]}
-                            image=""
+                            image={advancedCuttingImage}
                             imageAlt="Advanced Cutting"
                             width="w-[380px]"
                         />
