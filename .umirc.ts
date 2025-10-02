@@ -34,6 +34,18 @@ export default defineConfig({
       'mdi:cube-outline',
       'mdi:spray',
 
+      // ServicesOverviewSection 使用的图标
+      'fa:cog',
+      'fa:th',
+      'fa:print',
+
+      // Footer 支付方式图标
+      'logos:paypal',
+      'logos:mastercard',
+      'logos:visaelectron',
+      'fa:university',
+      'fa:envelope',
+
       // 其他页面使用的图标
       'mdi:factory',
       'mdi:flask',

@@ -33,17 +33,35 @@ const Footer = () => {
                             </div>
 
                             <div className="flex items-start space-x-3">
-                                <Icon icon="fa:envelope" className="text-gray-400 mt-1" />
-                                <span className="text-sm">info@rapiddirect.com</span>
-                            </div>
-
-                            <div className="flex items-start space-x-3">
                                 <Icon icon="fa:map-marker" className="text-gray-400 mt-1" />
                                 <span className="text-sm">
                                     Building A12, Haosi Industrial Park <br />
                                     Nanpu Road, Xinqiao Street, Bao'an District<br />
                                     Shenzhen, China, 518104
                                 </span>
+                            </div>
+
+                            {/* Contact Email */}
+                            <div className="mt-4">
+                                <div className="flex items-center space-x-2">
+                                    <Icon icon="fa:envelope" className="text-gray-400" />
+                                    <span className="text-gray-300 text-sm">
+                                        <a href="mailto:payment@companyname.com" className="underline hover:text-white">payment@companyname.com</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            {/* Payment Methods */}
+                            <div className="mt-6">
+                                <div className="flex items-center space-x-4">
+                                    <span className="text-gray-300 font-medium">Payment Methods:</span>
+                                    <div className="flex items-center space-x-3">
+                                        <Icon icon="logos:paypal" className="h-6 text-gray-300" />
+                                        <Icon icon="logos:visaelectron" className="h-6 text-gray-300" />
+                                        <Icon icon="logos:mastercard" className="h-6 text-gray-300" />
+                                        <Icon icon="fa:university" className="h-6 text-gray-300" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

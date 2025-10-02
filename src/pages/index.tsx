@@ -1,7 +1,8 @@
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import AdvantagesSection from '../components/AdvantagesSection';
-import CustomersSection from '../components/CustomersSection';
+// import CustomersSection from '../components/CustomersSection';
+import ServicesOverviewSection from '../components/ServicesOverviewSection';
 import CNCMachiningSection from '../components/CNCMachiningSection';
 import SheetMetalSection from '../components/SheetMetalSection';
 import Printing3DSection from '../components/Printing3DSection';
@@ -15,7 +16,8 @@ export default function HomePage() {
       <Header />
       <HeroSection />
       <AdvantagesSection />
-      <CustomersSection />
+      {/* <CustomersSection /> */}
+      <ServicesOverviewSection />
       <CNCMachiningSection />
       <SheetMetalSection />
       <Printing3DSection />

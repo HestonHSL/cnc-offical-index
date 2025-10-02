@@ -35,14 +35,20 @@ const Header = () => {
                         ))}
                     </nav>
 
-                    {/* CTA Button */}
-                    <div className="flex items-center">
+                    {/* CTA Buttons */}
+                    <div className="flex items-center space-x-3">
                         <Button
                             type="primary"
                             size="large"
                             className="bg-blue-600 hover:bg-blue-700 border-blue-600 hover:border-blue-700"
                         >
-                            Get Instant Quote
+                            CNC Quote
+                        </Button>
+                        <Button
+                            size="large"
+                            className="border-gray-300 text-gray-700 hover:text-blue-600 hover:border-blue-600"
+                        >
+                            3D Printing Quote
                         </Button>
                     </div>
                 </div>

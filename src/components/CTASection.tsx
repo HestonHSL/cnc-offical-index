@@ -19,13 +19,13 @@ const CTASection = () => {
                             size="large"
                             className="bg-blue-600 hover:bg-blue-700 border-blue-600 hover:border-blue-700 h-12 px-8 text-base font-medium"
                         >
-                            Get Instant Quote
+                            CNC Quote
                         </Button>
                         <Button
                             size="large"
                             className="h-12 px-8 text-base font-medium border-gray-300 text-gray-700 hover:text-blue-600 hover:border-blue-600"
                         >
-                            Start Production Quote
+                            3D Printing Quote
                         </Button>
                     </div>
                 </div>

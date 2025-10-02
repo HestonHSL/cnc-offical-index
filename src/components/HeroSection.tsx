@@ -32,7 +32,7 @@ const HeroSection = () => {
 
                         {/* Large bold heading */}
                         <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-                            Exquisite Craftsmanship, Outstanding Manufacturing<br /><span className="text-blue-600 text-xl">———A Leading Expert in CNC Parts Machining</span>
+                            Exquisite Craftsmanship, Outstanding Manufacturing<br /><span className="text-blue-600 text-xl">———A Leading Expert in CNC/3D Parts Machining</span>
                         </h1>
 
                         {/* Description */}
@@ -50,13 +50,13 @@ const HeroSection = () => {
                                 size="large"
                                 className="bg-blue-600 hover:bg-blue-700 border-blue-600 hover:border-blue-700 h-12 px-8 text-base font-medium"
                             >
-                                Get Instant Quote
+                                CNC Quote
                             </Button>
                             <Button
                                 size="large"
                                 className="h-12 px-8 text-base font-medium border-gray-300 text-gray-700 hover:text-blue-600 hover:border-blue-600"
                             >
-                                Start Production Quote
+                                3D Printing Quote
                             </Button>
                         </div>
 
